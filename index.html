@@ -1,18 +1,10 @@
-
-update b
-set b.Status = 6
-from ConsumablePreparationPlanDetail a inner join ConsumablePreparationPlan b on a.ConsumablePreparationPlanId = b.Id
-where b.CreatedDate < '2022-08-31 23:23:59.593'
-
-update a
-set a.Quantity = 0
-from ConsumablePlanDetail a inner jo<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
 <HTML>
 
  <HEAD>
 
-  <TITLE> New Document </TITLE>
+  <TITLE> Duyên lùng </TITLE>
 
   <META NAME="Generator" CONTENT="EditPlus">
 
@@ -428,7 +420,7 @@ var ParticlePool = (function() {
 
     // create the fill
 
-    context.fillStyle = '#ea80b0';
+    context.fillStyle = '#ff0000';
 
     context.fill();
 
@@ -526,19 +518,4 @@ var ParticlePool = (function() {
 
  </BODY>
 
-</HTML>in ConsumablePlan b on a.ConsumablePlanId = b.Id
-where b.CreatedDate < '2022-08-31 23:23:59.593'
-update a
-set a.Status = 6
-from ConsumablePlanDetail a inner join ConsumablePlan b on a.ConsumablePlanId = b.Id
-where b.CreatedDate < '2022-08-31 23:23:59.593'
-
-update ConsumablePlanFromPreparationPlan
-set Quantity = 0
-where ConsumablePreparationPlanDetailId in (
-select b.Id from ConsumablePreparationPlan a join ConsumablePreparationPlanDetail b 
-on a.id = b.ConsumablePreparationPlanId 
-where a.CreatedDate < '2022-08-31'
- ) 
- select * from ConsumablePlanFromPreparationPlan
- select * from ConsumablePreparationPlan where CreatedDate < '2022-08-31 23:23:59.593'
+</HTML>
